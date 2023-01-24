@@ -10,34 +10,17 @@
 body{
     background-color: white;
 }
-#vision{
-    font-weight: bold; 
-    font-size: 20px; 
-    font-family: 'Poppins', 
-    sans-serif; 
-    text-align: center;
-     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-     color: white; text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; border-radius: 10px;
-}
-#heading{
-    font-size: 78px; 
-    text-decoration: underline; 
-    font-family: 'Playfair Display', serif;
-}
-#logo{
-    width: 150px;
-    height: 150px;
 
+section-1 .img-fluid{
+max-width: 100%;
 }
+
 section.section-1{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.nav-link{
-    transition: all 0.2s;
-    position: relative;
-}
+
 .nav-link:hover{
     text-decoration: underline;
 }
@@ -53,10 +36,7 @@ section.section-1{
 .main{
     width: 100%;
 }
-/*.carousel-item img{
-    width:700;
-    height:1900;   
-}*/
+
 .carousel-inner{
     position: relative; 
     width:100%;
@@ -70,20 +50,16 @@ font-family: 'Lora', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Urbanist', sans-serif;
 font-family: 'Varela Round', sans-serif;
-font-size: 23px;
-line-height: 40px;
+font-size: 18px;
+font-weight: bold;
+line-height: 30px;
+text-align: justify;
 
 }
 .section-2{
     min-height: 100vh;
     display: flex;
-    align-items: center;
-}
-.section-3{
-    min-height: 100vh;
-    display: flex;
-   
-align-items: center;
+    
 }
 
 .reveal{
@@ -99,7 +75,9 @@ align-items: center;
 }
 #sub-heading-1{
     font-size: 50px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 575px;
+    
 } 
 
 h2 u{
@@ -108,29 +86,7 @@ h2 u{
 }
 
 @media (max-width: 500px) {
-    #logo{
-        margin-top: -177px;
-        width: 70px;
-        height: 70px;
-    }
-    #vision{
-    font-size: 20px; 
-    font-family: 'Poppins', sans-serif; 
-    text-align: center;
-     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-     color: white; 
-     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; border-radius: 10px;
-     margin-left: -54px;
-     
-    }
-    #heading{
-        font-size: 47px;
-        color: black;
-        text-decoration: underline; 
-        font-family: 'Playfair Display', serif;
-        
-        margin-left: -6px;
-    }
+    
 
 }
 
