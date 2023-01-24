@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Playfair+Display:ital@0;1&family=Poppins:wght@200;300;400;600&family=Roboto+Slab:wght@300;400&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: white;
+}
+#vision{
+    font-weight: bold; 
+    font-size: 20px; 
+    font-family: 'Poppins', 
+    sans-serif; 
+    text-align: center;
+     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+     color: white; text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; border-radius: 10px;
+}
+#heading{
+    font-size: 78px; 
+    text-decoration: underline; 
+    font-family: 'Playfair Display', serif;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+
+}
+section.section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-link{
+    transition: all 0.2s;
+    position: relative;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+#carouselExampleIndicators{
+    margin: 20px;
+}
+
+
+.card{
+    width: 18rem;
+}
+.main{
+    width: 100%;
+}
+/*.carousel-item img{
+    width:700;
+    height:1900;   
+}*/
+.carousel-inner{
+    position: relative; 
+    width:100%;
+   overflow: hidden;
+}
+p{
+    margin:40px;
+text-shadow: 1px black;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Urbanist', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-size: 23px;
+line-height: 40px;
+
+}
+.section-2{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.section-3{
+    min-height: 100vh;
+    display: flex;
+   
+align-items: center;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+#sub-heading-1{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+} 
+
+h2 u{
+    color: rgba(10, 1, 44, 0.993);
+    width: 30px;
+}
+
+@media (max-width: 500px) {
+    #logo{
+        margin-top: -177px;
+        width: 70px;
+        height: 70px;
+    }
+    #vision{
+    font-size: 20px; 
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+     color: white; 
+     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; border-radius: 10px;
+     margin-left: -54px;
+     
+    }
+    #heading{
+        font-size: 47px;
+        color: black;
+        text-decoration: underline; 
+        font-family: 'Playfair Display', serif;
+        
+        margin-left: -6px;
+    }
+
+}
+
