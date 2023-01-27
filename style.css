@@ -368,25 +368,98 @@ position: relative;
     padding: 0.3em 0.6em;
     font-size: 0.9em;
 }
-.usa{
-    top: 50%;
-    left:21%;
-}
-.france{
-    top: 45%;
-    left:48%;
-}
+
 .india{
     top: 49%;
     left:68%;
 }
-.sweden{
-    top: 33%;
-    left:52%;
+.australia{
+    top: 75%;
+    left:82%;
 }
-.south-africa{
-    top: 78%;
-    left:53%;
+.canada{
+    top: 24%;
+    left:17%;
+}
+.america{
+    top: 38%;
+    left:18%;
+}
+.japan{
+    top: 40%;
+    left:84%;
+}
+.nepal{
+    top: 42%;
+    left:71%;
+}
+.thailand{
+    top: 52%;
+    left:74%;
+}
+.bhutan{
+    top: 46%;
+    left:73%;
+}
+.uk{
+    top: 27%;
+    left:46%;
+}
+.switzerland{
+    top: 31%;
+    left:50%;
+}
+.russia{
+    top: 18%;
+    left:76%;
+}
+/*.poland{
+    top: 49%;
+    left:68%;
+}*/
+.israel{
+    top: 43%;
+    left:57%;
+}
+.france{
+    top: 35%;
+    left:48%;
+}
+/*.germany{
+    top: 49%;
+    left:68%;
+}*/
+.newzealand{
+    top: 86%;
+    left:94%;
+}
+.singapore{
+    top: 60%;
+    left:74%;
+}
+.newyork{
+    top: 34%;
+    left:23%;
+}
+.california{
+    top: 42%;
+    left:17%;
+}
+/*.ohio{
+    top: 49%;
+    left:68%;
+}*/
+.stpetersberg{
+    top: 20%;
+    left:59%;
+}
+.malaysia{
+    top: 64%;
+    left:79%;
+}
+.sydney{
+    top: 81%;
+    left:87%;
 }
 @keyframes pulse {
     100%{
