@@ -95,24 +95,27 @@ text-align: justify;
     margin: 50px 2px;
 padding:35px;
 font-family: 'Roboto', sans-serif;
-font-size: 3em;
+font-size: 4em;
 text-decoration: underline;
 text-transform: uppercase;
 text-align: center;
 position: relative;
-background-image: linear-gradient(white, rgb(0, 217, 255), white);
+background-color: rgb(21 154 177);
+color: white;
+font-weight: bold;
 }
 .unsdg-heading h2{
     margin: 50px 2px;
     padding:35px;
 font-family: 'Roboto', sans-serif;
-font-size: 3em;
+font-size: 4em;
 text-decoration: underline;
 text-transform: uppercase;
 text-align: center;
 position: relative;
-background-image: linear-gradient(white, rgb(0, 217, 255), white);
-
+background-color:rgb(21 154 177);
+color:white;
+font-weight: bold;
 }
 .unsdg{
     width:100%;
@@ -305,7 +308,7 @@ position: relative;
     justify-content: center;
     align-items: center;
     min-height: 60vh;
-    background-image: linear-gradient(white, rgb(0, 217, 255), white);
+    
     
 }
 .swiper {
@@ -594,8 +597,13 @@ span {
 }
 
 .agenda img{
-    width:100%;
+    /*width: 1345px;
+    height:270px;*/
+    width: 100%;
     
+}
+.aboutus img{
+   width: 100%;
 }
 
 @media (max-width: 500px) {
