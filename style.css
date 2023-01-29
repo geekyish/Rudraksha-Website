@@ -213,14 +213,17 @@ transform-style:preserve-3d;
 
 }
 .volunteers h2{
-    margin: 0;
-padding: 0;
+    margin: 50px 2px;
+    padding:35px;
 font-family: 'Roboto', sans-serif;
-font-size: 3em;
+font-size: 4em;
 text-decoration: underline;
 text-transform: uppercase;
 text-align: center;
 position: relative;
+background-color: rgb(21 154 177);
+color: white;
+font-weight: bold;
 }
 .volunteer-section .card1 .links i{
     height: 35px;
@@ -244,7 +247,7 @@ position: relative;
     min-width: 20vw;
     height: 30vw;
     border-radius: 2vw;
-    background-image: linear-gradient(white, rgb(0, 217, 255), white);
+    background-image: linear-gradient(white, rgb(0, 225, 255), white);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 2vw;
@@ -275,20 +278,17 @@ position: relative;
     
 }
 .interns h2{
-    margin: 0;
-padding: 0;
+    margin: 50px 2px;
+    padding:35px;
 font-family: 'Roboto', sans-serif;
-font-size: 3em;
+font-size: 4em;
 text-decoration: underline;
 text-transform: uppercase;
 text-align: center;
 position: relative;
-}
-.interns{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+background-color: rgb(21 154 177);
+color: white;
+font-weight: bold;
 }
 
 .intern-swipper{
@@ -332,14 +332,17 @@ position: relative;
     object-fit: contain;
   }
   .reach h2{
-    margin: 50px;
-    padding: 0;
+    margin: 50px 2px;
+    padding:35px;
     font-family: 'Roboto', sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     text-decoration: underline;
     text-transform: uppercase;
     text-align: center;
     position: relative;
+    background-color: rgb(21 154 177);
+color: white;
+font-weight: bold;
   }
 .pin{
     background: #ff0000;
