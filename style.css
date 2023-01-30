@@ -596,6 +596,10 @@ span {
 .aboutus img{
    width: 100%;
 }
+.vision-sub-banner img{
+    width: 1535px;
+    height:330px;
+}
 
 @media (max-width: 768px) {
    #projectbanner{
