@@ -597,8 +597,13 @@ span {
    width: 100%;
 }
 .vision-sub-banner img{
-    width: 1519px;
-    height:330px;
+    width: 100%;
+}
+.corevalues-sub-banner img{
+    width: 100%;
+}
+.mission img{
+    width: 100%;
 }
 
 @media (max-width: 768px) {
