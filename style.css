@@ -83,7 +83,7 @@ text-align: justify;
 padding:35px;
 font-family: 'Roboto', sans-serif;
 font-size: 4em;
-text-decoration: underline;
+
 text-transform: uppercase;
 text-align: center;
 position: relative;
@@ -96,7 +96,7 @@ font-weight: bold;
     padding:35px;
 font-family: 'Roboto', sans-serif;
 font-size: 4em;
-text-decoration: underline;
+
 text-transform: uppercase;
 text-align: center;
 position: relative;
@@ -217,7 +217,7 @@ transform-style:preserve-3d;
     padding:35px;
 font-family: 'Roboto', sans-serif;
 font-size: 4em;
-text-decoration: underline;
+
 text-transform: uppercase;
 text-align: center;
 position: relative;
@@ -247,7 +247,7 @@ font-weight: bold;
     min-width: 20vw;
     height: 30vw;
     border-radius: 2vw;
-    background-image: linear-gradient(white, rgb(0, 225, 255), white);
+    background-image: linear-gradient(white, 	rgba(255, 0, 255, 0.325), white);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 2vw;
@@ -282,7 +282,7 @@ font-weight: bold;
     padding:35px;
 font-family: 'Roboto', sans-serif;
 font-size: 4em;
-text-decoration: underline;
+
 text-transform: uppercase;
 text-align: center;
 position: relative;
@@ -336,7 +336,7 @@ position: relative;
     padding:35px;
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
-    text-decoration: underline;
+    
     text-transform: uppercase;
     text-align: center;
     position: relative;
@@ -605,7 +605,29 @@ span {
 .mission img{
     width: 100%;
 }
+.maincv {
+    margin: 30px;
+    position: relative;
+    top: 20px;
+}
+.maincv ol {
+    list-style: decimal; 
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.maincv span {
+    display: inline;
+    
+}
+
+.cvspan {
+    color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 15px;
+}
 @media (max-width: 768px) {
    #projectbanner{
     width: 375px;
