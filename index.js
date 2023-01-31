@@ -34,3 +34,8 @@ observer.unobserve(workSection);
 });
 
 workObserver.observe(workSection);
+
+
+
+//img slider
+

@@ -637,6 +637,42 @@ span {
     font-weight: bolder;
     margin-left: 15px;
 }
+
+.swiper1 {
+    width: 600px;
+   height: 415px;
+   margin-left: 500px;
+   
+ }
+
+ .swiper-slide {
+    text-align: center;
+     /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+ }
+  .swiper-slide img {
+    display: block;
+    width: 600px;
+    height: 415px;
+   
+  }
+  .refund img{
+    width: 100%;
+  }
+
+
 @media (max-width: 768px) {
    #projectbanner{
     width: 375px;
@@ -673,6 +709,10 @@ span {
 }
 .footer .footerspan {
     margin-left: 1px;
+}
+
+.layout-container {
+    padding: 6rem 1.8rem;
 }
 
 }
