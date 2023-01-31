@@ -21,10 +21,19 @@ section.section-1{
     align-items: center;
 }
 
-.nav-link:hover{
-    text-decoration: underline;
+.section-work-data{
+    color: white;
+    background-color: rgb(21 154 177);
+    text-align: center;
+    transition: all 0.7s linear;
 }
-
+.counter-numbers{
+    font-size: 4.8rem;
+}
+.section-work-data p{
+    text-align: center;
+    color: white;
+}
 #carouselExampleIndicators{
     margin: 20px;
 }
@@ -247,7 +256,7 @@ font-weight: bold;
     min-width: 20vw;
     height: 30vw;
     border-radius: 2vw;
-    background-image: linear-gradient(white, 	rgba(255, 0, 255, 0.325), white);
+    background-image: linear-gradient(white, 	rgba(0, 217, 255, 0.721), white);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 2vw;
