@@ -671,7 +671,12 @@ span {
   .refund img{
     width: 100%;
   }
-
+  .management img{
+    width: 100%;
+  }
+.coc img{
+    width: 100%;
+}
 
 @media (max-width: 768px) {
    #projectbanner{
