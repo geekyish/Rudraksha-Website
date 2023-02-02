@@ -604,7 +604,20 @@ span {
 }
 .aboutus img{
    width: 100%;
+   float: right;
+   margin-right: 0px;
+   
 }
+.wrapper{
+    margin-top: -120px;
+    margin-left: 0px;
+    width: 60%;
+}
+.text-box{
+    margin-right: -145px;
+    position: relative;
+}
+
 .vision-sub-banner img{
     width: 100%;
 }
@@ -641,7 +654,7 @@ span {
 .swiper1 {
     width: 600px;
    height: 415px;
-   margin-left: 500px;
+   margin-left: 900px;
    
  }
 
@@ -666,7 +679,7 @@ span {
     display: block;
     width: 600px;
     height: 415px;
-   
+    margin-top: 55px;
   }
   .refund img{
     width: 100%;
