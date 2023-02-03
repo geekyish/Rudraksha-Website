@@ -38,4 +38,3 @@ workObserver.observe(workSection);
 
 
 //img slider
-
