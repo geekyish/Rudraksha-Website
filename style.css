@@ -117,7 +117,7 @@ font-weight: bold;
     width:100%;
     position:absolute;
     float: right;
-animation: rotate 100s infinite linear;
+animation: rotate 40s infinite linear;
 transform-style:preserve-3d;
 
 }
@@ -192,7 +192,7 @@ transform-style:preserve-3d;
 }
 .unsdg img{
     image-rendering: auto;
-    transition: all 300ms;
+    transition: all 100ms;
     width: 100%;
     height: 100%;
 }
@@ -429,10 +429,7 @@ font-weight: bold;
     top: 18%;
     left:76%;
 }
-/*.poland{
-    top: 49%;
-    left:68%;
-}*/
+
 .israel{
     top: 43%;
     left:57%;
@@ -441,10 +438,7 @@ font-weight: bold;
     top: 35%;
     left:48%;
 }
-/*.germany{
-    top: 49%;
-    left:68%;
-}*/
+
 .newzealand{
     top: 86%;
     left:94%;
@@ -597,8 +591,7 @@ span {
 }
 
 .agenda img{
-    /*width: 1345px;
-    height:270px;*/
+   
     width: 100%;
     
 }
@@ -884,10 +877,12 @@ font-weight: bold;
 }
 
 
+.abus-content1{
+    margin-top: 22%;
+    margin-right: 40%;
+}
 
-
-
-
+ 
 
 @media (max-width: 768px) {
    #projectbanner{
@@ -899,8 +894,25 @@ font-weight: bold;
    .map{
     font-size: 13px;
    }
+   .testimonials h2{
+    margin: 50px -15px;
+    font-size: 3em;
+   }
+   .volunteers h2{
+    font-size: 3em;
+   }
+   .unsdg-heading h2{
+    font-size: 3em;
+   }
+   .interns h2{
+    font-size: 3em;
+   }
    .volunteer-section{
+    width: 0;
     height: 10em;
+   }
+   .card1{
+    height: 46vw;
    }
    .leftside,.rightside{
     height: 50vh;
@@ -938,7 +950,24 @@ font-weight: bold;
   }
 .content-wrapper{
     height: 235px;
-
 }
+.section-work-data .col-3{
+    width: 50%;
+}
+.swiper{
+    float: right;
+    margin: 5px;
+    max-width: 100%;
+}
+.swiper-slide img{
+    float: right;
+    
+    max-width: 100%;
+}
+.abus-content1{
+    margin-top: 22%;
+    margin-right: 0%;
+}
+
 
 }
