@@ -887,7 +887,114 @@ font-weight: bold;
 .recheader img{
     width: 100%;
 }
+.recdiv1heading {
+    margin-top: 20px;
+}
+.recdiv1heading h4 {
+    font-weight: bold;
+    color: black;
+}
+.recdiv1 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.recMain label {
+    font-weight: bold;
+}
+label {
+    display: inline-block;
+}
+.recdiv1 div {
+    width: 30%;
+}
+.recdiv2 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.recdiv2 div {
+    width: 30%;
+}
+.recdiv3 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recdiv3 div {
+    width: 30%;
+}
+.recdiv4 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recdiv4 div {
+    width: 30%;
+}
+.recdiv5 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recdiv5 div {
+    width: 30%;
+}
+.recdiv6 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recdiv6 div {
+    width: 30%;
+}
+.recdiv7 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recdiv7 div {
+    width: 30%;
+}
+.recdiv8 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recdiv8 div {
+    width: 30%;
+}
+.resumefile{
+    position: relative;
+    top: 20px;
+}
+.recdiv9 {
+    margin: 20px;
+    text-align: center;
+}
+.recmain label{
+    font-weight: bold;
+}
 
+
+.recdiv1heading h4 {
+    font-weight: bold;
+    color: black;
+}
 @media (max-width: 768px) {
    #projectbanner{
     width: 375px;

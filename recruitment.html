@@ -378,6 +378,193 @@
       <div class="recheader">
         <img src="./Images/Rec.jpg" alt="">
       </div>
+<div class="recmain container">
+  <div class="recdiv1heading">
+    <h4 class="perhead">Personal Information</h4>
+    <hr>
+  </div>
+  <form action="#">
+    <div class="recdiv1">
+      <div>
+        <label for="FirstName">First Name</label>
+        <input type="text" required class="form-control" id="FirstName" placeholder="Enter your First name" value>
+      </div>
+      <div>
+        <label for="MiddleName">Middle Name</label>
+        <input type="text" class="form-control" id="MiddleName" placeholder="Enter your Middle name" value>
+      </div>
+      <div>
+        <label for="LastName">Last Name</label>
+        <input type="text" class="form-control" id="LastName" placeholder="Enter your Last name" value>
+      </div>
+    </div>
+
+    <div class="recdiv2">
+      <div>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" class="form-control" id="dob" name="dob" placeholder="Enter your Date Of Birth" value>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="text" class="form-control" readonly id="age" onmousemove="FindAge()" name="age" placeholder="Your Age" value>
+      </div>
+   
+    <div>
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender" class="form-control">
+        <option>Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Transgender</option>
+      </select>
+    </div>
+  </div>
+<div class="recdiv1heading">
+  <h4>Contact</h4>
+  <hr>
+</div>
+<div class="recdiv3">
+  <div>
+    <label for="email">Email</label>
+    <input type="text" class="form-control" id="email" placeholder="Enter your Email" value>
+  </div>
+  <div>
+    <label for="FatherName">Father's Name</label>
+    <input type="text" class="form-control" id="FatherName" placeholder="Enter your Father's Name" value>
+  </div>
+  <div>
+    <label for="MotherName">Mother's Name</label>
+    <input type="text" class="form-control" id="MotherName" placeholder="Enter your Mother's Name" value>
+  </div>
+</div>
+<div class="recdiv4">
+  <div>
+    <label for="phone">Contact No.</label>
+    <input type="text" class="form-control" id="phone" placeholder="Enter your Contact No." value>
+  </div>
+  <div>
+    <label for="address1">Address Line 1</label>
+    <input type="text" class="form-control" id="address1" placeholder="Enter your Address Line 1" value>
+  </div>
+  <div>
+    <label for="address2">Address Line 2</label>
+    <input type="text" class="form-control" id="address2" placeholder="Enter your Address Line 2" value>
+  </div>
+</div>
+<div class="recdiv5">
+  <div>
+    <label for="city">City</label>
+    <input type="text" class="form-control" id="city" placeholder="Enter your City" value>
+  </div>
+  <div>
+    <label for="pincode">Pincode</label>
+    <input type="text" class="form-control" id="pincode" placeholder="Enter your Pincode" value>
+  </div>
+  <div>
+    <label for="state">State</label>
+    <input type="text" class="form-control" id="state" placeholder="Enter your State" value>
+  </div>
+</div>
+<div class="recdiv1heading">
+  <h4>Qualifications</h4>
+  <hr>
+</div>
+<div class="recdiv6">
+  <div>
+    <label for="education">Education</label>
+    <select id="education" required class="form-control">
+      <option>Select</option>
+      <option>Secondary</option>
+      <option>Higher Secondary</option>
+      <option>Under-Graduate</option>
+      <option>Graduate</option>
+      <option>Post-Graduate</option>
+    </select>
+  </div>
+  <div>
+    <label for="stream">Stream</label>
+      <select id="stream" required class="form-control" style="display: inline;">
+        <option>Select</option>
+      <option>Science</option>
+      <option>Commerce</option>
+      <option>Arts</option>
+      </select>
+      </div>
+      <div>
+      <label for="degree">Degree</label>
+      <select id="degree" required class="form-control" style="display: inline;">
+        <option>Select</option>
+        <option>NA</option>
+      <option>BE/BTech</option>
+      <option>BCom</option>
+      <option>Bsc</option>
+      <option>BA</option>
+      <option>LAW</option>
+      <option>BBA</option>
+      <option>BCA</option>
+      </select>
+  </div>
+</div>
+<div class="recdiv7">
+  <div>
+    <label for="currentcompany">Current Company</label>
+    <input type="text" class="form-control" id="currentcompany" placeholder="Enter your Current Company" value>
+  </div>
+  <div>
+    <label for="designation">Designation</label>
+    <select id="designation" required class="form-control" style="display: inline;">
+      <option>Select</option>
+      <option>Branch Manager</option>
+    <option>Custom Manager</option>
+    <option>Operation Manager</option>
+    <option>Admin Manager</option>
+    <option>Sales Manager</option>
+    <option>Relationship Manager</option>
+    <option>HR Manager</option>
+    <option>Receptionist</option>
+    <option>Guard</option>
+    <option>Support Staff</option>
+    </select>
+</div>
+<div>
+  <label for="experience">Experience</label>
+    <select id="experience" required class="form-control" style="display: inline;">
+      <option>Select</option>
+      <option>No Experience</option>
+    <option>0-2 Years</option>
+    <option>2-4 Years</option>
+    <option>4-6 Years</option>
+    <option>6-8 Years</option>
+    <option>8-10 Years</option>
+    <option>10+ Years</option>
+    </select>
+  </div>
+</div>
+<div class="recdiv8">
+  <div>
+    <label for="remarks">Remarks</label>
+    <input type="text" required class="form-control" id="remarks" placeholder="Enter your Remarks"value>
+  </div>
+<div>
+  <label for="vaccination">Vaccination</label>
+<select name="vaccination" id="vaccination" class="form-control" style="display: inline;">
+  <option>Select</option>
+  <option>No</option>
+  <option>Dose 1</option>
+  <option>Dose 2</option>
+</select>
+</div>
+<div class="resumefile">
+  <label for="resume">Resume</label>
+  <input type="file" required value>
+</div>
+</div>
+    
+    <div class="recdiv9">
+      <button type="submit" class="btn btn-outline-info">Submit Data</button>
+    </div>
+  </form>
+</div>
 
 
 
@@ -390,8 +577,17 @@
 
 
 
-
-
+<script>
+  function FindAge(){
+    var day=document.getElementById("dob").value;
+    var DOB=new Date(day);
+    var today=new Date();
+    var Age=today.getTime()-DOB.getTime();
+    Age=Math.floor(Age/(1000*60*60*24*365.25));
+    document.getElementById("age").value=Age;
+    
+}
+</script>
       <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
